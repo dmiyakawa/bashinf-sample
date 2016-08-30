@@ -1,7 +1,13 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 #
 # See also bash-oo-framework/your-script.sh
 #
+
+if ((BASH_VERSINFO[0] < 4))
+then
+  echo "Use bash version 4 (or later?)"
+  exit 1
+fi
 
 # http://stackoverflow.com/questions/16548528
 ns1=$(date +%s%N)
