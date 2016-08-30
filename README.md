@@ -5,13 +5,17 @@ Bash Infinity (bash-oo-framework) の特にログ周りを試してみただけ�
 * https://github.com/niieani/bash-oo-framework
   * Copyright (c) 2015 Bazyli Brzóska @ https://invent.life/
 
+以下の検証で使いました。
+
+http://qiita.com/amedama/items/135551123694b0680823
+
 # 使い方
 
 本プロジェクト直下に bash-oo-framework/ として上記のプロジェクトを設置する。
 
 ```
 $ git clone https://github.com/niieani/bash-oo-framework.git
-$ ./log_sample.sh
+$ bash4 ./log_sample.sh
 I'm blue...
 [DEBUG] [log_sample.sh:31] Play me some Jazz, will ya? 🎷
 Something bad happened.
